@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75623557372",
+    "project_id": "prueba-4a450",
+    "storage_bucket": "prueba-4a450.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75623557372:android:fdb00b4e881b947a994f79",
+        "android_client_info": {
+          "package_name": "com.equipo6.practica7_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVN6sLvbJDjLkv3ckdmGnt5rD2bUyITXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

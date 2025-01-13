@@ -1,28 +1,24 @@
 pluginManagement {
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
 }
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
 
-include(":admob:app",
-        ":analytics:app",
-        ":appdistribution:app",
-        ":auth:app",
-        ":config:app",
-        ":crash:app",
-        ":database:app",
-        ":dataconnect:app",
-        ":dynamiclinks:app",
-        ":firestore:app",
-        ":functions:app",
-        ":internal:chooserx",
-        ":internal:lint",
-        ":internal:lintchecks",
-        ":inappmessaging:app",
-        ":messaging:app",
-        ":perf:app",
-        ":storage:app",
-        ":vertexai:app"
-)
+rootProject.name = "Practica7_2"
+include(":app")
+ 
